@@ -141,3 +141,23 @@
     height: 32px;
     border-radius: 16px;
 }
+
+@media (max-width: 600px) {
+    .voice-search-button {
+        display: none;
+    }
+
+    .search-bar {
+        display: none;
+    }
+
+    .search-button {
+        width: 35px;
+        height: 35px;
+        border-radius: 18px;
+    }
+
+    .search-button img {
+        height: 20px;
+    }
+}
