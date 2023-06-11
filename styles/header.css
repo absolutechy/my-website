@@ -143,6 +143,17 @@
 }
 
 @media (max-width: 600px) {
+
+    /* .middle-section {
+        margin-left: 2em;
+        margin-right: 1em;
+    } */
+
+    .hamburger-menu {
+        margin-left: 1em;
+        margin-right: 1em;
+    }
+
     .voice-search-button {
         display: none;
     }
@@ -152,12 +163,21 @@
     }
 
     .search-button {
-        width: 35px;
-        height: 35px;
-        border-radius: 18px;
+        width: 7vmin;
+        height: 7vmin;
+        border-radius: 15vb;
     }
 
     .search-button img {
-        height: 20px;
+        height: 5vmin;
+    }
+
+
+    .right-section {
+        width: 26vw;
+    }
+
+    .youtube-apps-container {
+        display: none;
     }
 }
